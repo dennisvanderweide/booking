@@ -1,0 +1,11 @@
+services:
+  api:
+    build: .
+    extra_hosts:
+      - host.docker.internal:host-gateway
+    ports:
+      - 5003:80
+    volumes:
+      - ./go/:/home/user/go/
+      - $HOME/.supermaven:/home/user/.supermaven
+      - ../:/home/user/workspace/

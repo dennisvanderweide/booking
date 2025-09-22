@@ -1,0 +1,17 @@
+{
+  "name": "Booking",
+  "dockerComposeFile": ["docker-compose.yml"],
+  "service": "api",
+  "workspaceFolder": "/home/user/workspace/",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "golang.go",
+        "humao.rest-client",
+        "Supermaven.supermaven",
+        "usernamehw.errorlens"
+      ]
+    }
+  }
+}
